@@ -6,16 +6,20 @@ document, body {
 }
 h1, h2 {
     margin: 0px;
+    padding:0px;
     font-weight: 400;
 }
 h1 {
     height: 20vh;
     line-height: 20vh;
     padding-left: 20px;
+    background-image: url("http://abs.twimg.com/images/themes/theme1/bg.png")
 }
+
 .main, .menu, h1 {
-    vertical-align: middle;
+    vertical-align: top;
     box-sizing: border-box;
+    display:block;
 }
 .main {
     width: 50vw;
@@ -46,6 +50,11 @@ h1 {
 .tweet, .tweet-pink {
     border-bottom: solid 1px #DDD;
     padding: 20px;
+    
+}
+
+.tweet:hover {
+    background-color: lightgray;
 }
 .tweet img, .tweet-pink img {
     height: 200px;
@@ -59,6 +68,12 @@ h1 {
 .twitterClass{
   color: green;
 }
-.UserClass{
+.userClass{
   color: red;
+}
+
+.twitterClassOne {
+    padding: 20px;
+    border-bottom: solid 1px #DDD;
+
 }
